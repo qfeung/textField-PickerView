@@ -24,6 +24,7 @@
 //Xib
 -(void)awakeFromNib
 {
+    [super awakeFromNib];
     [self setupUI];
 }
 

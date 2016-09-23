@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AddressController.h"
 
 @interface ViewController ()
 
@@ -27,14 +28,21 @@
     
     UIButton *testBtn = [UIButton buttonWithType:UIButtonTypeContactAdd];
     
+    // 监听按钮的点击事件
+    [testBtn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    
     [self.view addSubview:testBtn];
      
     testBtn.center = self.view.center;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)btnClick {
+    
+    UIViewController *toVC = [AddressController new];
+    
+    UINavigationController *naviVC = [[UINavigationController alloc] initWithRootViewController:toVC];
+    
+    [self presentViewController:naviVC animated:YES completion:nil];
 }
 
 
