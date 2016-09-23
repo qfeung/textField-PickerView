@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>维尼的小熊</string>
+		<key>isMan</key>
+		<string>0</string>
+		<key>number</key>
+		<string>13366457786</string>
+		<key>city</key>
+		<string>十万大山</string>
+		<key>region</key>
+		<string>建材城西路</string>
+		<key>address</key>
+		<string>139号</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>苍井空</string>
+		<key>isMan</key>
+		<string>1</string>
+		<key>number</key>
+		<string>13847386383</string>
+		<key>city</key>
+		<string>通辽</string>
+		<key>region</key>
+		<string>西拉木伦大街</string>
+		<key>address</key>
+		<string>河阳古道</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>波多野结衣</string>
+		<key>isMan</key>
+		<string>1</string>
+		<key>number</key>
+		<string>13462363536</string>
+		<key>city</key>
+		<string>南疆</string>
+		<key>region</key>
+		<string>仲夏花海南区</string>
+		<key>address</key>
+		<string>隐秀草庐4层306室</string>
+	</dict>
+</array>
+</plist>
